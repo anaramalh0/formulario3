@@ -50,9 +50,36 @@ input{
     display: flex;
 }
 
+.validator button{
+    
+    background-color: #dcdcdc;
+    border: none;
+    border-radius: 5px;
+    margin-right: 50px;
+    
+    width: 60px;
+    height: 30px;
+}
+.validator p{
+    font-size: 14px;
+}
+.validator p span{
+    background-color:#3E75B5;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.validator p a{
+    color:#3E75B5;
+    text-decoration:none;
+}
+
 .btn{
     padding: 10px ;
     display: flex;
+    
     
 }
 #btnAzul{
@@ -72,4 +99,4 @@ input{
     color: #fff;
     border: none;
 }
-}
+
