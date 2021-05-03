@@ -1,8 +1,43 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.container{
+    width: 500px;
+    height: 500px;
+}
+h1{
+ font-weight: normal;
+}
 form{
     border-top: 4px solid #C1E37F;
     border-bottom: 4px solid #C1E37F;
     border-radius: 5px;
+
+    padding: 20px 2px;
+}
+
+.name{
+    display: flex;
+}
+.firstName{
+    flex:1;
+}
+
+.lastName{
+    flex:1;
+}
+
+.password{
+    display: flex;
+}
+.password1{
+    flex:1;
+}
+
+.confirmPassword{
+    flex:1;
+}
+
+.validator{
+    display: flex;
 }
