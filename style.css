@@ -16,6 +16,14 @@ form{
     padding: 20px 2px;
 }
 
+input{
+   padding: 10px; 
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   outline: 0;
+   margin-bottom: 10px;
+}
+
 .name{
     display: flex;
 }
