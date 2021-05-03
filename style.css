@@ -22,6 +22,7 @@ input{
    border-radius: 10px;
    outline: 0;
    margin-bottom: 10px;
+   width: 220px;
 }
 
 .name{
@@ -29,10 +30,21 @@ input{
 }
 .firstName{
     flex:1;
+  
 }
 
 .lastName{
     flex:1;
+   
+}
+
+#userName{
+    width: 470px;
+   
+}
+#email{
+    width: 470px;
+   
 }
 
 .password{
